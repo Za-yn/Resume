@@ -4,12 +4,16 @@
   "private": true,
   "homepage": "https://za-yn.github.io/Resume/",
   "dependencies": {
+    "css-loader": "^0.28.7",
     "gh-pages": "^2.0.1",
-    "react": "^16.8.4",
+    "react": "^16.3.0",
     "react-awesome-resume": "^0.1.0",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
-    "semantic-ui-css": "^2.4.1"
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.86.0",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.28.3"
   },
   "scripts": {
     "start": "react-scripts start",

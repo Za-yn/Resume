@@ -15,24 +15,29 @@
       },
       "profiles": [
         {
-            "network": "Github",
+            "network": "github",
             "username": "za-yn",
             "url": "https://github.com/Za-yn"
         },
         {
-            "network": "LinkedIn",
+            "network": "linkedin",
             "username": "zayn",
             "url": "https://www.linkedin.com/in/zayn/"
         },
         {
-            "network": "Google plus",
+            "network": "google plus",
             "username": "zayn",
             "url": "https://plus.google.com/+ZhuangYuan"
         },
         {
-            "network": "Skype",
+            "network": "skype",
             "username": "zayn",
             "url": "https://join.skype.com/invite/nsgjZ5wRkacw"
+        },
+        {
+          "network": "address card",
+          "username": "zayn",
+          "url": "https://join.skype.com/invite/nsgjZ5wRkacw"
         }
     ]
     },
@@ -108,11 +113,7 @@
           "CS2040C - Data Structures and Algorithms",
           "CS2113T - Software Engineering & Object-Oriented Programming",
           "CP2016 - Independent Software Development Project (Orbital)",
-          "CG2028 - Computer Organization",
-          "CG2027 - Transistor-level Design",
-          "EE2026 - Digital Design",
-          "CG2271 - Real-time Operating Systems",
-          "CS1231 - Discrete Structures"
+          "CG2028 - Computer Organization"
         ]
       }
 ],
@@ -124,16 +125,27 @@
     }],
     "skills": [{
       "name": "Web Development",
-      "level": "Master",
+      "level": "90",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "React",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Mobile App Development",
+      "level": "80",
+      "keywords": [
+        "Android: Java and React Native",
+        "React Native"
       ]
     }],
     "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
+      "name": "English",
+      "level": "Proficient"
+    },
+    {
+      "name": "Chinese",
+      "level": "Proficient"
     }],
     "interests": [{
       "name": "Wildlife",
