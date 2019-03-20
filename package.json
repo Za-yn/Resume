@@ -11,6 +11,7 @@
     "react": "^15.0.0",
     "react-awesome-resume": "^0.1.0",
     "react-dom": "^15.0.0",
+    "react-fontawesome": "^1.6.1",
     "react-markdown": "^2.5.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "2.1.8",
