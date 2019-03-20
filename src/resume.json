@@ -1,11 +1,11 @@
 {
     "basics": {
-      "name": "Zayn Zhuang Yuan",
-      "label": "CEO & Founder",
+      "name": "Zayn",
+      "label": "CEO & Founder of Home Sweet Home/Unsual Undergraduate",
       "picture": "./images/profilepic.jpg",
       "phone": "+65 96430688",
       "website": "yuan.z@u.nus.edu",
-      "summary": "",
+      "summary": "Elon Musk said: “Engineering is the closest thing to magic that exists in the real world.” He is right because it takes innovation and entrepreneurship for true magic to happen. I firmly believe that engineering is the furnace in which innovation is forged into products, and entrepreneurship is the incubator that brings the innovation to the world. Bringing an idea to the world, that is what magic is to me.",
       "location": {
         "address": "251 Bedok South Avenue 3",
         "postalCode": "Singapore 465479",
@@ -35,9 +35,9 @@
             "url": "https://join.skype.com/invite/nsgjZ5wRkacw"
         },
         {
-          "network": "address card",
+          "network": "file alternate",
           "username": "zayn",
-          "url": "https://join.skype.com/invite/nsgjZ5wRkacw"
+          "url": "https://za-yn.github.io/Resume/Zayn_Yuan_ZHUANG_Resume.pdf"
         }
     ]
     },
