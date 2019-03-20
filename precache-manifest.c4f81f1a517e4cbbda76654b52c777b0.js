@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Resume/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "9f042bd87c29b863a26b",
+    "revision": "a243c5461ab0f931a64b",
     "url": "/Resume/static/css/main.190459ec.chunk.css"
   },
   {
@@ -20,32 +20,32 @@ self.__precacheManifest = [
     "url": "/Resume/static/js/2.c9f35476.chunk.js"
   },
   {
-    "revision": "cd6c777f1945164224dee082abaea03a",
-    "url": "/Resume/static/media/outline-icons.cd6c777f.woff2"
-  },
-  {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/Resume/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "701ae6abd4719e9c2ada3535a497b341",
-    "url": "/Resume/static/media/outline-icons.701ae6ab.eot"
-  },
-  {
-    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
-    "url": "/Resume/static/media/outline-icons.ad97afd3.ttf"
+    "revision": "cd6c777f1945164224dee082abaea03a",
+    "url": "/Resume/static/media/outline-icons.cd6c777f.woff2"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
     "url": "/Resume/static/media/flags.9c74e172.png"
   },
   {
+    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
+    "url": "/Resume/static/media/outline-icons.ad97afd3.ttf"
+  },
+  {
+    "revision": "701ae6abd4719e9c2ada3535a497b341",
+    "url": "/Resume/static/media/outline-icons.701ae6ab.eot"
+  },
+  {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
     "url": "/Resume/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "9f042bd87c29b863a26b",
-    "url": "/Resume/static/js/main.95db709e.chunk.js"
+    "revision": "a243c5461ab0f931a64b",
+    "url": "/Resume/static/js/main.0e797132.chunk.js"
   },
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/Resume/static/media/brand-icons.13db00b7.eot"
   },
   {
-    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
-    "url": "/Resume/static/media/brand-icons.c5ebe0b3.ttf"
-  },
-  {
     "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
     "url": "/Resume/static/media/icons.b87b9ba5.ttf"
+  },
+  {
+    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
+    "url": "/Resume/static/media/brand-icons.c5ebe0b3.ttf"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/Resume/static/css/2.5037c582.chunk.css"
   },
   {
-    "revision": "09c0ce5f992182fe9fc0f7b8818530b2",
+    "revision": "3092800aeba92887c156dc08bd1abed1",
     "url": "/Resume/index.html"
   }
 ];
