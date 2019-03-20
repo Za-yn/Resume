@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://za-yn.github.io/Resume/",
   "dependencies": {
     "css-loader": "^0.28.7",
