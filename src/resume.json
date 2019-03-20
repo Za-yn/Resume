@@ -109,36 +109,67 @@
         "endDate": "Present",
         "gpa": "3.74/5.00",
         "courses": [
-          "CS1010 - Programming Methodology",
-          "CS2040C - Data Structures and Algorithms",
-          "CS2113T - Software Engineering & Object-Oriented Programming",
-          "CP2016 - Independent Software Development Project (Orbital)",
-          "CG2028 - Computer Organization"
+          "UTC1102B - The Darwinian Revolution",
+          "UTW1001N - Public Persona and Self-Presentations",
+          "UTC2107 - Negotiation in  Complex World",
+          "UTW2001T - Nobodiness: The Self as a Story",
+          "UTS2100 - Intelligence and Singapore Society"
         ]
       }
 ],
     "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
+      "title": "Orbital 2018 (Apollo Category) Honorable Mention",
+      "date": "5 Sep 2018",
+      "awarder": "NUS School of Computing",
+      "summary": "Orbital provides a platform for students to gain hands-on industrial experience for computing technologies related to students’ own interests. Done in pairs of two, Orbital students propose, design, execute, implement and market their project to peers and faculty. Peer assessment and critique of others’ projects are key components of the modules’ deliverables. . I developed an AR app for furniture consumer and after pitching to my peers got voted the top 3 best project among hundreds of other teams."
+    },
+    {
+      "title": "Innovation and Practicum (October 2018)",
+      "date": "3 Oct 2018",
+      "awarder": "NUS School of Computing",
+      "summary": "A SGD10,000 grant awarded to students who have an innovative idea to turn it into a start-up over a year long period."
+    }
+  ],
     "skills": [{
-      "name": "Web Development",
-      "level": "90",
+      "name": "Coding",
+      "level": "80",
       "keywords": [
-        "React",
-        "CSS"
+        "C/C++: Eclipse, Atmel Studio",
+        "Java: Eclipse, Android Studio, IntelliJ"
       ]
     },
     {
-      "name": "Mobile App Development",
-      "level": "80",
+      "name": "Front-end",
+      "level": "50",
       "keywords": [
-        "Android: Java and React Native",
-        "React Native"
+        "Android: Java, React Native",
+        "Web: Reactjs, Markdown"
       ]
-    }],
+    },
+    {
+      "name": "Back-end",
+      "level": "25",
+      "keywords": [
+        "Database: MongoDB",
+        "Virtual Machine: Google Cloud Platform",
+        "Storage: AWS S3"
+      ]
+    },
+    {
+      "name": "Spreadsheet",
+      "level": "35",
+      "keywords": [
+        "Google Scripts"
+      ]
+    },
+    {
+      "name": "Hardware Design",
+      "level": "50",
+      "keywords": [
+        "VHDL"
+      ]
+    }
+  ],
     "languages": [{
       "name": "English",
       "level": "Proficient"
@@ -148,10 +179,19 @@
       "level": "Proficient"
     }],
     "interests": [{
-      "name": "Wildlife",
+      "name": "Sports",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Archery: ALways aiming straight and true",
+        "Snowboarding: Always getting back up from falling",
+        "Running: Never from my problems"
       ]
-    }]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Piano: Self-taught. Loves jazz, particularly Misty",
+        "Drums: Complete amateur but I make sounds"
+      ]
+    }
+  ]
   }
