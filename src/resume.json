@@ -117,6 +117,41 @@
         ]
       }
 ],
+    "education": [{
+      "institution": "National University of Singapore",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Engineering (Honours) in Computer Engineering",
+      "startDate": "Aug 2017",
+      "endDate": "Present",
+      "gpa": "3.74/5.00",
+      "courses": [
+        "CS1010 - Programming Methodology",
+        "CS2040C - Data Structures and Algorithms",
+        "CS2113T - Software Engineering & Object-Oriented Programming",
+        "CP2016 - Independent Software Development Project (Orbital)",
+        "CG2028 - Computer Organization",
+        "CG2027 - Transistor-level Design",
+        "EE2026 - Digital Design",
+        "CG2271 - Real-time Operating Systems",
+        "CS1231 - Discrete Structures"
+      ]
+    },
+    {
+        "institution": "National University of Singapore",
+        "area": "Tembusu College",
+        "studyType": "University Town College Program (UTCP)",
+        "startDate": "Aug 2017",
+        "endDate": "Present",
+        "gpa": "3.74/5.00",
+        "courses": [
+          "UTC1102B - The Darwinian Revolution",
+          "UTW1001N - Public Persona and Self-Presentations",
+          "UTC2107 - Negotiation in  Complex World",
+          "UTW2001T - Nobodiness: The Self as a Story",
+          "UTS2100 - Intelligence and Singapore Society"
+        ]
+      }
+],
     "awards": [{
       "title": "Orbital 2018 (Apollo Category) Honorable Mention",
       "date": "5 Sep 2018",
