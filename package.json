@@ -16,6 +16,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "2.1.8",
     "semantic-ui-css": "^2.4.1",
+    "semantic-ui-icon": "^2.3.3",
     "semantic-ui-react": "^0.86.0",
     "shortid": "^2.2.8",
     "style-loader": "^0.19.0",
