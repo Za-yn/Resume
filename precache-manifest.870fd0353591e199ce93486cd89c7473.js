@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/Resume/static/media/icons.fee66e71.woff"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/Resume/static/media/icons.674f50d2.eot"
-  },
-  {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/Resume/static/media/icons.b06871f2.ttf"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/Resume/static/media/icons.674f50d2.eot"
   },
   {
     "revision": "c99350cda379e3965444",
