@@ -15,17 +15,17 @@
       },
       "profiles": [
         {
-            "network": "github",
+            "network": "github square",
             "username": "za-yn",
             "url": "https://github.com/Za-yn"
         },
         {
-            "network": "linkedin",
+            "network": "linkedin alternate",
             "username": "zayn",
             "url": "https://www.linkedin.com/in/zayn/"
         },
         {
-            "network": "google plus",
+            "network": "google plus square",
             "username": "zayn",
             "url": "https://plus.google.com/+ZhuangYuan"
         },
