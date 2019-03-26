@@ -1,683 +1,726 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
- 
-  <!-- meta-information-->
- 
-  <title>About Me</title>
-  <link rel="short icon" type="image/ico" href="icons/favicon.ico"/>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
-   <!-- attaching CSS-->
-  
-  <link rel="stylesheet" href="css/examples/colors/blue.css"/>
-  
- </head>
- <body>
-	<div id="js-overlay" class="overlay">	
+
+<head>
+
+	<!-- meta-information-->
+
+	<title>About Me</title>
+	<link rel="short icon" type="image/ico" href="icons/favicon.ico" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- attaching CSS-->
+
+	<link rel="stylesheet" href="css/examples/colors/blue.css" />
+
+</head>
+
+<body>
+	<div id="js-overlay" class="overlay">
 		<div class="preloader preloader_type1">
-		   <div class="preloader__item">
-			   <div class="preloader__rotator">
-				   <div class="preloader__rotator-element"></div>
-				   <div class="preloader__rotator-element"></div>
-			   </div>
-		   </div>
-	   </div> 
-   </div>
- <script>document.body.classList.add("js-yes");</script>
- 
-<div class="page">
- <aside id="js-sidebar" class="sidebar">
-  <img src="ProfilePic2.jpg" class="responsive-img" alt="avatar of Zayn Zhuang">
-  <div class="welcome">
-   <h1 class="welcome__msg">
-    I'm Zayn
-    <span class="welcome__label">Founder & CEO of Home Sweet Home/Unusual Undergraduate</span>
-   </h1>
-  </div>
- </aside>
- <div class="container">
- 
- <!-- navigation-->
-  <header class="header">
-   <nav id="js-nav" class="nav">
-    <a href="#about" class="nav__link js-nav__link nav__link_active">
-     <i class="icon nav__icon icon_white icon-account_circle"></i>
-     <span class="nav__label">About me</span>
-    </a>				
-    <a href="#resume" class="nav__link js-nav__link">
-     <i class="icon nav__icon icon_white icon-assignment"></i>
-     <span class="nav__label">Resume</span>
-    </a>				
-    <a href="#services" class="nav__link js-nav__link">
-     <i class="icon nav__icon icon_white icon-keyboard"></i>
-     <span class="nav__label">My Company</span>
-    </a>				
-    <a href="#portfolio" class="nav__link js-nav__link">
-     <i class="icon nav__icon icon_white icon-laptop_windows"></i>
-     <span class="nav__label">Portfolio</span>
-    </a>				
-    <a href="#blog" class="nav__link js-nav__link">
-     <i class="icon nav__icon icon_white icon-mode_edit"></i>
-     <span class="nav__label">Interests</span>
-    </a>				
-    <a href="#contacts" class="nav__link js-nav__link">
-     <i class="icon nav__icon icon_white icon-person_pin_circle"></i>
-     <span class="nav__label">Contacts</span>
-    </a>				
-   </nav>
-  </header>
-  
-  <!-- content-->
-  
-  <div class="content">
-   <div id="js-tabs-infoblocks" class="tabs-infoblocks">
-    <section id="about" class="tabs-infoblock js-about">
-		<div class="tabs-infoblock__inner">
-		 <h2 class="title main-title"><span class="main-title__label">About me</span></h2>
-		 
-		 <!-- I’m Front-end Developer -->
-		 
-		 <div class="content__section">
-		  <h3 class="title title_middle">
-		   <i class="icon icon_small main-icon icon-bookmark"></i>
-		   <span class="title__label">I’m an innovator</span>
-		  </h3>
-		  <blockquote class="blockquote">
-		   <i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
-		   <p>My given name is Zhuang Yuan, but please call me Zayn. 
-			   I am a firm believer that innovation is the way to effectively solve the world’s problems. 
-			   Being a future computer engineer, my area of interest includes Augmented Reality (AR) and Computer Vision. 
-			   I explore my interests in these fields by dabbling in mobile application development to solve problems that I encounter. 
-			   During the summer of my junior year in University, I developed a prototype AR app to make furniture shopping easier for homeowners. 
-			   Being mostly a front-end application only, I pitched the idea well enough to be voted the top three best project in the School of Computing in my university. 
-			   Now, I successfully attained a grant from the school to further my idea into a start-up and am collaborating with a furniture company to digitize their furniture in my next iteration of development.</p>
-		   <i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
-		  </blockquote>						
-		 </div>				
-		 
-		 <!-- Personal Info -->
-		 
-		 <div class="content__section">
-		  <h3 class="title title_middle">
-		   <i class="icon icon_small main-icon icon-file-text-o"></i>
-			<span class="title__label">Personal Info</span>
-		  </h3>
-		  <div class="iconboxs">
-		   <div class="iconbox">
-			<i class="icon icon_middle iconbox__icon icon-earth"></i>
-			<div class="iconbox__info">
-			 <span class="iconbox__label iconbox__name">Language</span>
-			 <span class="iconbox__label">English <br/> Chinese</span>
-			</div>
-		   </div>
-		   <div class="iconbox">
-			<i class="icon icon_middle iconbox__icon icon-calendar"></i>
-			<div class="iconbox__info">
-				<span class="iconbox__label iconbox__name">Date of birth</span>
-				<span class="iconbox__label">12 May 1996</span>
-			</div>
-			</div>
-			<div class="iconbox">
-				<i class="icon icon_middle iconbox__icon icon-location"></i>
-				<div class="iconbox__info">
-					<span class="iconbox__label iconbox__name">Hometown</span>
-					<span class="iconbox__label">Singapore</span>
+			<div class="preloader__item">
+				<div class="preloader__rotator">
+					<div class="preloader__rotator-element"></div>
+					<div class="preloader__rotator-element"></div>
 				</div>
-			</div>
-			<div class="iconbox">
-					<i class="icon icon_middle iconbox__icon icon-graduation-cap"></i>
-					<div class="iconbox__info">
-						<span class="iconbox__label iconbox__name">Degree</span>
-						<span class="iconbox__label">BEng (Hons) in Computer Engineering </span>
-					</div>
-			</div>	
-		  </div>
-		 </div>	
-		 
-		 <!-- My Skills -->
-		 
-		 <div class="content__section">
-		  <div class="skills">
-		   <h3 class="title title_middle">
-			<i class="icon icon_small main-icon icon-diamond"></i>
-			<span class="title__label">My Skills</span>
-		   </h3>
-		   <div class="progress-bars">
-			<div class="progress-bar">
-			 <span class="progress-bar__name">Coding: C / C++ / Java</span>
-			 <div class="progress">
-			  <span class="progress__value" style="width: 80%"></span>
-			</div>
-			<div class="progress-bar">
-				<span class="progress-bar__name">Mobile: Android</span>
-				<div class="progress">
-				 <span class="progress__value" style="width: 70%"></span>
-			</div>
-			<div class="progress-bar">
-				<span class="progress-bar__name">Front-end: HTML / CSS / React</span>
-				<div class="progress">
-				 <span class="progress__value" style="width: 50%"></span>
-				</div>
-			</div>
-			<div class="progress-bar">
-				<span class="progress-bar__name">Back-end: MongoDB / Google Cloud Platform / AWS S3</span>
-				<div class="progress">
-				 <span class="progress__value" style="width: 35%"></span>
-				</div>
-		   </div>
-		  </div>
-		 </div>	
-		 <br/>	
-		 <br/>
-		 
-		 <!-- My Stats -->
-		 
-		<div class="content__section">
-		 <h3 class="title title_middle">
-		  <i class="icon icon_small main-icon icon-trophy"></i>
-		  <span class="title__label">My Stats</span>
-		 </h3>
-		 <div class="iconboxs">
-		  <div class="iconbox">
-		   <i class="icon icon_middle iconbox__icon icon-thumbs-up"></i>
-		   <div class="iconbox__info">
-			<span class="iconbox__label iconbox__name">10+</span>
-			<span class="iconbox__label">projects done</span>
-		   </div>
-		  </div>
-		  <div class="iconbox">
-				<i class="icon icon_middle iconbox__icon icon-laptop_windows"></i>
-				<div class="iconbox__info">
-				 <span class="iconbox__label iconbox__name">1</span>
-				 <span class="iconbox__label">company found</span>
-				</div>
-			</div>
-			<div class="iconbox">
-					<i class="icon icon_middle iconbox__icon icon-coffee"></i>
-					<div class="iconbox__info">
-					 <span class="iconbox__label iconbox__name">100+</span>
-					 <span class="iconbox__label">cups of coffee</span>
-					</div>
-				</div>							
 			</div>
 		</div>
-	</section>
-    <section id="resume" class="tabs-infoblock resume">
-		<div class="tabs-infoblock__inner">
-		 <h2 class="title main-title"><span class="main-title__label">Resume</span></h2>
-		 
-		 <!-- Description of section -->
-		 
-		 <div class="content__section">
-		  <blockquote class="blockquote">
-		   <i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
-		   <p>Elon Musk said: “Engineering is the closest thing to magic that exists in the real world.” 
-			   He is right because it takes innovation and entrepreneurship for true magic to happen. 
-			   I firmly believe that engineering is the furnace in which innovation is forged into products, 
-			   and entrepreneurship is the incubator that brings the innovation to the world. 
-			   Bringing an idea to the world, that is what magic is to me.</p>
-		   <i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
-		  </blockquote>
-		  <a href="https://za-yn.github.io/Resume/Resume_Zayn_Yuan_ZHUANG.pdf" class="link-flat download-resume">
-		   <i class="icon link__icon icon-cloud-download"></i>
-		   <span class="download-resume__label">Download resume</span>
-		  </a>
-		 </div>
-		 
-		 <!-- Education --> 
-		 
-		 <div class="content__section">
-		  <h3 class="title title_middle">
-		   <i class="icon icon_small main-icon icon-graduation-cap"></i>
-		   <span class="title__label">Education</span>
-		  </h3>
-		  <div class="timeline">
-		   <article class="timeline__box">
-			<h4 class="title title_small">National University of Singapore: Computer Engineering</h4>
-			<span class="timeline__caption">Aug 2017 - Present</span>
-			<div class="timeline__content">
-			 <p>Programming Methodology <br/>
-				Data Structures and Algorithms <br/>
-				Software Engineering & Object-Oriented Programming <br/>
-				Independent Software Development Project (Orbital) <br/>
-				Computer Organization <br/>
-				Transistor-level Design <br/>
-				Real-time Operating Systems <br/>
-				Discrete Structures <br/>
-				Digital Design <br/>
-			</p>
+	</div>
+	<script>document.body.classList.add("js-yes");</script>
+
+	<div class="page">
+		<aside id="js-sidebar" class="sidebar">
+			<img src="ProfilePic2.jpg" class="responsive-img" alt="avatar of Zayn Zhuang">
+			<div class="welcome">
+				<h1 class="welcome__msg">
+					I'm Zayn
+					<span class="welcome__label">Founder & CEO of Home Sweet Home/Unusual Undergraduate</span>
+				</h1>
 			</div>
-		   </article>
-		   <article class="timeline__box">
-				<h4 class="title title_small">National University of Singapore: Tembusu College</h4>
-				<span class="timeline__caption">Aug 2017 - May 2019</span>
-				<div class="timeline__content">
-				 <p>The Darwinian Revolution <br/>
-					Public Persona and Self-Presentations <br/>
-					Negotiation in  Complex World <br/>
-					Nobodiness: The Self as a Story <br/>
-					Intelligence and Singapore Society <br/>
-				</p>
+		</aside>
+		<div class="container">
+
+			<!-- navigation-->
+			<header class="header">
+				<nav id="js-nav" class="nav">
+					<a href="#about" class="nav__link js-nav__link nav__link_active">
+						<i class="icon nav__icon icon_white icon-account_circle"></i>
+						<span class="nav__label">About me</span>
+					</a>
+					<a href="#resume" class="nav__link js-nav__link">
+						<i class="icon nav__icon icon_white icon-assignment"></i>
+						<span class="nav__label">Resume</span>
+					</a>
+					<a href="#services" class="nav__link js-nav__link">
+						<i class="icon nav__icon icon_white icon-keyboard"></i>
+						<span class="nav__label">My Company</span>
+					</a>
+					<a href="#portfolio" class="nav__link js-nav__link">
+						<i class="icon nav__icon icon_white icon-laptop_windows"></i>
+						<span class="nav__label">Portfolio</span>
+					</a>
+					<a href="#blog" class="nav__link js-nav__link">
+						<i class="icon nav__icon icon_white icon-mode_edit"></i>
+						<span class="nav__label">Interests</span>
+					</a>
+					<a href="#contacts" class="nav__link js-nav__link">
+						<i class="icon nav__icon icon_white icon-person_pin_circle"></i>
+						<span class="nav__label">Contacts</span>
+					</a>
+				</nav>
+			</header>
+
+			<!-- content-->
+
+			<div class="content">
+				<div id="js-tabs-infoblocks" class="tabs-infoblocks">
+					<section id="about" class="tabs-infoblock js-about">
+						<div class="tabs-infoblock__inner">
+							<h2 class="title main-title"><span class="main-title__label">About me</span></h2>
+
+							<!-- I’m Front-end Developer -->
+
+							<div class="content__section">
+								<h3 class="title title_middle">
+									<i class="icon icon_small main-icon icon-bookmark"></i>
+									<span class="title__label">I’m an innovator</span>
+								</h3>
+								<blockquote class="blockquote">
+									<i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
+									<p>My given name is Zhuang Yuan, but please call me Zayn.
+										I am a firm believer that innovation is the way to effectively solve the world’s problems.
+										Being a future computer engineer, my area of interest includes Augmented Reality (AR) and Computer
+										Vision.
+										I explore my interests in these fields by dabbling in mobile application development to solve
+										problems that I encounter.
+										During the summer of my junior year in University, I developed a prototype AR app to make furniture
+										shopping easier for homeowners.
+										Being mostly a front-end application only, I pitched the idea well enough to be voted the top three
+										best project in the School of Computing in my university.
+										Now, I successfully attained a grant from the school to further my idea into a start-up and am
+										collaborating with a furniture company to digitize their furniture in my next iteration of
+										development.</p>
+									<i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
+								</blockquote>
+							</div>
+
+							<!-- Personal Info -->
+
+							<div class="content__section">
+								<h3 class="title title_middle">
+									<i class="icon icon_small main-icon icon-file-text-o"></i>
+									<span class="title__label">Personal Info</span>
+								</h3>
+								<div class="iconboxs">
+									<div class="iconbox">
+										<i class="icon icon_middle iconbox__icon icon-earth"></i>
+										<div class="iconbox__info">
+											<span class="iconbox__label iconbox__name">Language</span>
+											<span class="iconbox__label">English <br /> Chinese</span>
+										</div>
+									</div>
+									<div class="iconbox">
+										<i class="icon icon_middle iconbox__icon icon-calendar"></i>
+										<div class="iconbox__info">
+											<span class="iconbox__label iconbox__name">Date of birth</span>
+											<span class="iconbox__label">12 May 1996</span>
+										</div>
+									</div>
+									<div class="iconbox">
+										<i class="icon icon_middle iconbox__icon icon-location"></i>
+										<div class="iconbox__info">
+											<span class="iconbox__label iconbox__name">Hometown</span>
+											<span class="iconbox__label">Singapore</span>
+										</div>
+									</div>
+									<div class="iconbox">
+										<i class="icon icon_middle iconbox__icon icon-graduation-cap"></i>
+										<div class="iconbox__info">
+											<span class="iconbox__label iconbox__name">Degree</span>
+											<span class="iconbox__label">BEng (Hons) in Computer Engineering </span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- My Skills -->
+
+							<div class="content__section">
+								<div class="skills">
+									<h3 class="title title_middle">
+										<i class="icon icon_small main-icon icon-diamond"></i>
+										<span class="title__label">My Skills</span>
+									</h3>
+									<div class="progress-bars">
+										<div class="progress-bar">
+											<span class="progress-bar__name">Coding: C / C++ / Java</span>
+											<div class="progress">
+												<span class="progress__value" style="width: 80%"></span>
+											</div>
+											<div class="progress-bar">
+												<span class="progress-bar__name">Mobile: Android</span>
+												<div class="progress">
+													<span class="progress__value" style="width: 70%"></span>
+												</div>
+												<div class="progress-bar">
+													<span class="progress-bar__name">Front-end: HTML / CSS / React</span>
+													<div class="progress">
+														<span class="progress__value" style="width: 50%"></span>
+													</div>
+												</div>
+												<div class="progress-bar">
+													<span class="progress-bar__name">Back-end: MongoDB / Google Cloud Platform / AWS S3</span>
+													<div class="progress">
+														<span class="progress__value" style="width: 35%"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- My Stats -->
+
+							<div class="content__section">
+								<h3 class="title title_middle">
+									<i class="icon icon_small main-icon icon-trophy"></i>
+									<span class="title__label">My Stats</span>
+								</h3>
+								<div class="iconboxs">
+									<div class="iconbox">
+										<i class="icon icon_middle iconbox__icon icon-thumbs-up"></i>
+										<div class="iconbox__info">
+											<span class="iconbox__label iconbox__name">10+</span>
+											<span class="iconbox__label">projects done</span>
+										</div>
+									</div>
+									<div class="iconbox">
+										<i class="icon icon_middle iconbox__icon icon-laptop_windows"></i>
+										<div class="iconbox__info">
+											<span class="iconbox__label iconbox__name">1</span>
+											<span class="iconbox__label">company found</span>
+										</div>
+									</div>
+									<div class="iconbox">
+										<i class="icon icon_middle iconbox__icon icon-coffee"></i>
+										<div class="iconbox__info">
+											<span class="iconbox__label iconbox__name">100+</span>
+											<span class="iconbox__label">cups of coffee</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="resume" class="tabs-infoblock resume">
+						<div class="tabs-infoblock__inner">
+							<h2 class="title main-title"><span class="main-title__label">Resume</span></h2>
+
+							<!-- Description of section -->
+
+							<div class="content__section">
+								<blockquote class="blockquote">
+									<i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
+									<p>Elon Musk said: “Engineering is the closest thing to magic that exists in the real world.”
+										He is right because it takes innovation and entrepreneurship for true magic to happen.
+										I firmly believe that engineering is the furnace in which innovation is forged into products,
+										and entrepreneurship is the incubator that brings the innovation to the world.
+										Bringing an idea to the world, that is what magic is to me.</p>
+									<i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
+								</blockquote>
+								<a href="https://za-yn.github.io/Resume/Resume_Zayn_Yuan_ZHUANG.pdf" class="link-flat download-resume">
+									<i class="icon link__icon icon-cloud-download"></i>
+									<span class="download-resume__label">Download resume</span>
+								</a>
+							</div>
+
+							<!-- Education -->
+
+							<div class="content__section">
+								<h3 class="title title_middle">
+									<i class="icon icon_small main-icon icon-graduation-cap"></i>
+									<span class="title__label">Education</span>
+								</h3>
+								<div class="timeline">
+									<article class="timeline__box">
+										<h4 class="title title_small">National University of Singapore: Computer Engineering</h4>
+										<span class="timeline__caption">Aug 2017 - Present</span>
+										<div class="timeline__content">
+											<p>Programming Methodology <br />
+												Data Structures and Algorithms <br />
+												Software Engineering & Object-Oriented Programming <br />
+												Independent Software Development Project (Orbital) <br />
+												Computer Organization <br />
+												Transistor-level Design <br />
+												Real-time Operating Systems <br />
+												Discrete Structures <br />
+												Digital Design <br />
+											</p>
+										</div>
+									</article>
+									<article class="timeline__box">
+										<h4 class="title title_small">National University of Singapore: Tembusu College</h4>
+										<span class="timeline__caption">Aug 2017 - May 2019</span>
+										<div class="timeline__content">
+											<p>The Darwinian Revolution <br />
+												Public Persona and Self-Presentations <br />
+												Negotiation in Complex World <br />
+												Nobodiness: The Self as a Story <br />
+												Intelligence and Singapore Society <br />
+											</p>
+										</div>
+									</article>
+								</div>
+							</div>
+
+							<!-- Work experience -->
+
+							<div class="content__section">
+								<h3 class="title title_middle">
+									<i class="icon icon_small main-icon icon-suitcase"></i>
+									<span class="title__label">Work experience</span>
+								</h3>
+								<div class="timeline">
+									<article class="timeline__box">
+										<h4 class="title title_small">Founder & CEO</h4>
+										<span class="timeline__caption">Oct 2018 - Present <br /> Home Sweet Home </span>
+										<div class="timeline__content">
+											<p>Home Sweet Home, a start-up founded in September 2018,
+												is an android mobile application online store that introduces
+												Augmented Reality (AR) technology for customers buying furniture for their house,
+												by projecting a realistic model of the furniture of their choice onto their space through
+												the phone’s camera. <br />
+												- Founded the company <br />
+												- Cross-platform development of front-end mobile application <br />
+												- Collaborate with furniture companies to digitize their furniture <br />
+												- Overseeing operations and learning back-end development
+											</p>
+										</div>
+									</article>
+									<article class="timeline__box">
+										<h4 class="title title_small">Market Research Consultant (Sales Department)</h4>
+										<span class="timeline__caption">Sep 2018 - Jan 2019 <br /> STT Connect Holdings Private. Limited.
+										</span>
+										<div class="timeline__content">
+											<p>STT Connect is the first MTCS SS 584 Level 3 certified OpenStack cloud provider in Singapore.
+												STT Connect offers the vital building blocks of cloud platforms and services
+												to tailor the best solution to meet business’ unique needs.<br />
+												- Advised sales team on product pricing by doing a comprehensive market analysis of competitors’
+												products <br />
+												- Learnt how to systematically analyse and assess competitiveness in a start-up <br />
+												- Scripted on Google scripts to crawl for competitors' data dynamically
+											</p>
+										</div>
+									</article>
+									<article class="timeline__box">
+										<h4 class="title title_small">Web Developer</h4>
+										<span class="timeline__caption">Jan 2017 - Present <br /> Febzwell International Trading Private.
+											Limited. </span>
+										<div class="timeline__content">
+											<p>An established local curtain brand selling ready-made curtains.
+												The company plans to expand operations into the ecommerce world away from brick and
+												mortar.<br />
+												- Designed an ecommerce website using the Shopify platform <br />
+												- Managing over 100 products and inventory
+											</p>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="services" class="tabs-infoblock services">
+						<div class="tabs-infoblock__inner">
+							<h2 class="title main-title"><span class="main-title__label">About Home Sweet Home</span></h2>
+
+							<!-- Description of section -->
+
+							<div class="content__section">
+								<blockquote class="blockquote">
+									<i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
+									<p>During the summer of my freshman year in university, I took up a module that allows students
+										to develop whatever projects they wish to. Wrecking my head, I spent days trying to look for a
+										problem to solve.
+										At the same time, I was very busy with moving, as my family bought a new home at that time.
+										So, whilst juggling with brainstorming ideas for my project, I was bugged by my parents to measure
+										and take photos of
+										empty spaces at home so they could refer to it while they shopped for furniture.
+									</p>
+									<p>
+										A light bulb lit above my head. It was my brother turned on the light switch. Then the idea hit me -
+										let's make
+										an app that leverages on AR technology to visualize furniture at home. At the end,
+										my project got voted the top 3 best project among hundreds of others. We've since come a long way,
+										acquiring
+										a $10000 grant from the school to further the idea as well as onboarding capable and driven members.
+									</p>
+									<i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
+								</blockquote>
+							</div>
+
+							<!-- Services list -->
+
+							<div class="content__section">
+								<h2 class="title main-title"><span class="main-title__label">App Features</span></h2>
+								<div class="cards">
+									<article class="card card_bg-yes">
+										<header class="card__iconbox">
+											<i class="icon icon_large card__icon icon-eye"></i>
+										</header>
+										<div class="card__content">
+											<h4 class="title title_small card__title">Augmented Reality</h4>
+											<div class="card__description">
+												<p>AR technology is used to greatly reduce time spent on visiting furniture stores and mentally
+													visualizing
+													bulky furniture at home.
+
+												</p>
+											</div>
+										</div>
+									</article>
+									<article class="card card_bg-yes">
+										<header class="card__iconbox">
+											<i class="icon icon_large card__icon icon-embed2"></i>
+										</header>
+										<div class="card__content">
+											<h4 class="title title_small card__title">Cross-platform</h4>
+											<div class="card__description">
+												<p>Our mobile application is developed on React Native to allow maximum usage of written code.
+													We write UI code as much as possible and wrap ios/android specific code in
+													native modules.
+												</p>
+											</div>
+										</div>
+									</article>
+									<article class="card card_bg-yes">
+										<header class="card__iconbox">
+											<i class="icon icon_large card__icon icon-usd"></i>
+										</header>
+										<div class="card__content">
+											<h4 class="title title_small card__title">Ecommerce</h4>
+											<div class="card__description">
+												<p>We aim to provide our customers a myriad of choices browsing furniture and at the same time
+													giving them
+													the convenience to visualize them at home. We also provide a platform for furniture firms to
+													gain more
+													online exposure as they move away from the traditional brick and mortar business model
+												</p>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+
+							<!-- Pricing Table -->
+
+							<div class="content__section">
+								<h3 class="title title_middle">
+									<i class="icon icon_small main-icon icon-mobile2"></i>
+									<span class="title__label">Mobile Application</span>
+								</h3>
+								<div class="cards">
+									<article class="card">
+										<header class="card__header">
+											<img src="http://placehold.it/480x320" class="responsive-img card__img" alt="Name project">
+										</header>
+										<div class="card__content">
+											<h4 class="title title_small card__title">Name project</h4>
+											<div class="card__description">
+												<p>Text</p>
+											</div>
+										</div>
+										<footer class="card__footer">
+											<div class="tags">
+												<i class="icon icon-local_offer"></i>
+												<span class="tags__item tags__label">Tags:</span>
+												<span class="tags__item tags__hashtag">#Mobile</span>
+											</div>
+											<a href="#0" class="link-flat">Live Demo</a>
+										</footer>
+									</article>
+								</div>
+							</div>
+
+							<!-- Clients -->
+
+							<div class="content__section">
+								<h3 class="title title_middle">
+									<i class="icon icon_small main-icon icon-comments"></i>
+									<span class="title__label">Clients</span>
+								</h3>
+								<div class="clients">
+									<a href="https://www.martlewood.com/" class="client"><img src="client-mw.jpg"
+											class="client__logo responsive-img" alt="client logo"></a>
+								</div>
+							</div>
+
+							<!-- Testimonials -->
+
+							<div class="content__section">
+								<h3 class="title title_middle">
+									<i class="icon icon_small main-icon icon-users"></i>
+									<span class="title__label">my team</span>
+								</h3>
+								<div class="content__section cards">
+									<article class="card card_bg-yes">
+										<header class="card__iconbox">
+											<img src="http://placehold.it/150x150" class="card__avatar" alt="ava">
+										</header>
+										<div class="card__content">
+											<h4 class="title title_small card__title">Kit</h4>
+											<span class="card__caption">COO, Business Development</span>
+											<blockquote class="card__description card__blockquote">
+												<i class="icon card__quote card__quote-left icon-quote-left"></i>
+												<p>Text</p>
+												<i class="icon card__quote card__quote-right icon-quote-right"></i>
+											</blockquote>
+										</div>
+									</article>
+									<article class="card card_bg-yes">
+										<header class="card__iconbox">
+											<img src="http://placehold.it/150x150" class="card__avatar" alt="ava">
+										</header>
+										<div class="card__content">
+											<h4 class="title title_small card__title">Sylvester</h4>
+											<span class="card__caption">Head of Business Development</span>
+											<blockquote class="card__description card__blockquote">
+												<i class="icon card__quote card__quote-left icon-quote-left"></i>
+												<p>Text</p>
+												<i class="icon card__quote card__quote-right icon-quote-right"></i>
+											</blockquote>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="portfolio" class="tabs-infoblock">
+						<div class="tabs-infoblock__inner">
+							<h2 class="title main-title"><span class="main-title__label">Portfolio</span></h2>
+
+							<!-- Description of section -->
+
+							<div class="content__section">
+								<blockquote class="blockquote">
+									<i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
+									<p>Text</p>
+									<i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
+								</blockquote>
+							</div>
+
+							<!-- Mobile application -->
+
+							<div class="content__section">
+								<h3 class="title title_middle">
+									<i class="icon icon_small main-icon icon-android"></i>
+									<span class="title__label">Mobile application</span>
+								</h3>
+								<div class="cards">
+									<article class="card">
+										<header class="card__header">
+											<img src="http://placehold.it/480x320" class="responsive-img card__img" alt="Name project">
+										</header>
+										<div class="card__content">
+											<h4 class="title title_small card__title">Name project</h4>
+											<div class="card__description">
+												<p>Text</p>
+											</div>
+										</div>
+										<footer class="card__footer">
+											<div class="tags">
+												<i class="icon icon-local_offer"></i>
+												<span class="tags__item tags__label">Tags:</span>
+												<span class="tags__item tags__hashtag">#Mobile</span>
+											</div>
+											<a href="#0" class="link-flat">Live Demo</a>
+										</footer>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="blog" class="tabs-infoblock">
+						<div class="tabs-infoblock__inner">
+							<h2 class="title main-title"><span class="main-title__label">Blog</span></h2>
+
+							<!-- Description of section -->
+
+							<div class="content__section">
+								<blockquote class="blockquote">
+									<i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
+									<p>Text</p>
+									<i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
+								</blockquote>
+							</div>
+
+							<!-- Post -->
+
+							<div class="content__section">
+								<div class="cards">
+									<article class="card">
+										<header class="card__header">
+											<img src="http://placehold.it/480x320" class="responsive-img card__img" alt="Title post">
+											<span class="card__hashtag">8 April 2016</span>
+										</header>
+										<div class="card__content">
+											<h4 class="title title_small card__title">Title post</h4>
+											<div class="card__description">
+												<p>Text</p>
+											</div>
+										</div>
+										<footer class="card__footer">
+											<div class="tags">
+												<i class="icon icon-local_offer"></i>
+												<span class="tags__item tags__label">Tags:</span>
+												<span class="tags__item tags__hashtag">#blog</span>
+												<span class="tags__item tags__hashtag">#news</span>
+											</div>
+											<a href="#js-post-popup" class="link-flat js-readmore">Read more</a>
+										</footer>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="contacts" class="tabs-infoblock contacts js-contacts">
+						<div class="tabs-infoblock__inner">
+							<h2 class="title main-title"><span class="main-title__label">Contacts</span></h2>
+
+							<!-- Contacts info -->
+
+							<div class="content__section">
+								<div class="iconboxs">
+									<div class="iconbox">
+										<i class="icon icon_middle iconbox__icon icon-envelope-square"></i>
+										<div class="iconbox__info">
+											<span class="iconbox__label iconbox__name">E-mail</span>
+											<span class="iconbox__label">yuan.z@u.nus.edu</span>
+										</div>
+									</div>
+									<div class="iconbox">
+										<i class="icon icon_middle iconbox__icon icon-whatsapp"></i>
+										<div class="iconbox__info">
+											<span class="iconbox__label iconbox__name">Whatsapp</span>
+											<span class="iconbox__label">+65 96430688</span>
+										</div>
+									</div>
+									<div class="iconbox">
+										<i class="icon icon_middle iconbox__icon icon-bubbles"></i>
+										<div class="iconbox__info">
+											<span class="iconbox__label iconbox__name">Telegram</span>
+											<span class="iconbox__label">@inzaynity</span>
+										</div>
+									</div>
+								</div>
+
+								<!-- Map -->
+
+								<div id="js-map" class="map" data-key="AIzaSyA27koLpPxsGA9HCEEpovOu5ySzCnx604c" data-lat="57.048671"
+									data-lng="9.9201409" data-address="Gammeltorv 10,9000 Aalborg, Denmark">
+								</div>
+							</div>
+
+
+
+							<!-- Contact form -->
+
+							<div class="content__section">
+								<h3 class="title title_middle">
+									<i class="icon icon_small main-icon icon-address-book"></i>
+									<span class="title__label">Contact form</span>
+								</h3>
+								<form class="form">
+									<div class="form__inner">
+										<div class="form__group form__column">
+											<input type="text" class="form__element field" name="username" placeholder="Your name"
+												pattern="^\S[а-яА-ЯёЁa-zA-Z\s]+\S" required>
+											<i class="icon form__icon icon-user"></i>
+											<span class="form__decor-line"></span>
+										</div>
+										<div class="form__group form__column">
+											<input type="email" class="form__element field" name="usermail" placeholder="Your email" required>
+											<i class="icon form__icon icon-envelope"></i>
+											<span class="form__decor-line"></span>
+										</div>
+									</div>
+									<div class="form__group">
+										<select class="form__element select" name="subject">
+											<option class="select__option">Subject</option>
+											<option class="select__option">Job</option>
+											<option class="select__option">Testimonial</option>
+											<option class="select__option">Other</option>
+										</select>
+										<i class="icon form__icon icon-book"></i>
+									</div>
+									<div class="form__group">
+										<textarea class="form__element field textarea" name="msg" placeholder="Your message"
+											required></textarea>
+										<i class="icon form__icon icon-bubbles"></i>
+										<span class="form__decor-line"></span>
+									</div>
+									<div class="form__button-box">
+										<button class="button">Send</button>
+									</div>
+								</form>
+
+								<!-- Social -->
+
+								<div class="social contacts__social">
+									<a href="https://www.facebook.com/zhuang.yuan.39" class="icon social__icon icon-facebook"><span
+											class="social__name">Facebook</span></a>
+									<a href="https://join.skype.com/invite/nsgjZ5wRkacw" class="icon social__icon icon-skype"><span
+											class="social__name">Skype</span></a>
+									<a href="https://github.com/Za-yn" class="icon social__icon icon-github"><span
+											class="social__name">GitHub</span></a>
+									<a href="https://plus.google.com/+ZhuangYuan" class="icon social__icon icon-google-plus"><span
+											class="social__name">Google Plus</span></a>
+									<a href="https://www.linkedin.com/in/zayn/" class="icon social__icon icon-linkedin"><span
+											class="social__name">LinkedIn</span></a>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
-			</article>
-		  </div>
-		 </div>
-		  
-		  <!-- Work experience -->
-		  
-		 <div class="content__section">
-		  <h3 class="title title_middle">
-		   <i class="icon icon_small main-icon icon-suitcase"></i>
-		   <span class="title__label">Work experience</span>
-		  </h3>
-		  <div class="timeline">
-		   <article class="timeline__box">
-			<h4 class="title title_small">Founder & CEO</h4>
-			<span class="timeline__caption">Oct 2018 - Present <br/> Home Sweet Home </span>
-			<div class="timeline__content">
-			 <p>Home Sweet Home, a start-up founded in September 2018, 
-				 is an android mobile application online store that introduces 
-				 Augmented Reality (AR) technology for customers buying furniture for their house, 
-				 by projecting a realistic model of the furniture of their choice onto their space through 
-				 the phone’s camera. <br/>
-				- Founded the company <br/>
-				- Cross-platform development of front-end mobile application <br/>
-				- Collaborate with furniture companies to digitize their furniture <br/>
-				- Overseeing operations and learning back-end development
-				</p>
+				<footer class="footer">
+					<span>Copyright © 2016 All rights reserved</span>
+				</footer>
 			</div>
-		   </article>
-		   <article class="timeline__box">
-				<h4 class="title title_small">Market Research Consultant (Sales Department)</h4>
-				<span class="timeline__caption">Sep 2018 - Jan 2019 <br/> STT Connect Holdings Private. Limited. </span>
-				<div class="timeline__content">
-				 <p>STT Connect is the first MTCS SS 584 Level 3 certified OpenStack cloud provider in Singapore. 
-					 STT Connect offers the vital building blocks of cloud platforms and services 
-					 to tailor the best solution to meet business’ unique needs.<br/>
-					- Advised sales team on product pricing by doing a comprehensive market analysis of competitors’ products <br/>
-					- Learnt how to systematically analyse and assess competitiveness in a start-up <br/>
-					- Scripted on Google scripts to crawl for competitors' data dynamically
+		</div>
+	</div>
+
+	<!-- popups-->
+
+	<div id="js-post-popup" class="popup js-popup">
+		<div class="popup__inner">
+			<span class="popup__close js-popup__close"></span>
+			<div class="popup__layout">
+				<div class="popup__container">
+					<h3 class="title popup__title">Title post</h3>
+					<p>Text</p>
+					<p>
+						<img src="http://placehold.it/1500x700" class="responsive-img" alt="img for post">
 					</p>
+					<p>Text</p>
+					<blockquote class="blockquote">
+						<i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
+						<p>Text</p>
+						<i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
+					</blockquote>
+					<p>Text</p>
 				</div>
-			</article>
-			<article class="timeline__box">
-					<h4 class="title title_small">Web Developer</h4>
-					<span class="timeline__caption">Jan 2017 - Present <br/> Febzwell International Trading Private. Limited. </span>
-					<div class="timeline__content">
-					 <p>An established local curtain brand selling ready-made curtains. 
-						 The company plans to expand operations into the ecommerce world away from brick and mortar.<br/>
-						- Designed an ecommerce website using the Shopify platform <br/>
-						- Managing over 100 products and inventory
-						</p>
-					</div>
-			</article>
-		  </div>
-		 </div>
+			</div>
 		</div>
-	   </section>
-	   <section id="services" class="tabs-infoblock services">
-		<div class="tabs-infoblock__inner">
-		 <h2 class="title main-title"><span class="main-title__label">About Home Sweet Home</span></h2>
-		 
-		 <!-- Description of section -->
-		 
-		 <div class="content__section">
-		 <blockquote class="blockquote">
-		  <i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
-		  <p>During the summer of my freshman year in university, I took up a module that allows students
-			  to develop whatever projects they wish to. Wrecking my head, I spent days trying to look for a problem to solve. 
-			  At the same time, I was very busy with moving, as my family bought a new home at that time.
-			  So, whilst juggling with brainstorming ideas for my project, I was bugged by my parents to measure and take photos of
-			  empty spaces at home so they could refer to it while they shopped for furniture. 
-		  </p>
-		  <p>
-			  A light bulb lit above my head. It was my brother turned on the light switch. Then the idea hit me - let's make 
-			  an app that leverages on AR technology to visualize furniture at home. At the end,
-			  my project got voted the top 3 best project among hundreds of others. We've since come a long way, acquiring
-			  a $10000 grant from the school to further the idea as well as onboarding capable and driven members. 
-		  </p>
-		  <i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
-		 </blockquote>
-		</div>		
-	   
-		<!-- Services list -->
-		
-		<div class="content__section">
-			<h2 class="title main-title"><span class="main-title__label">App Features</span></h2>
-		 <div class="cards">
-		  <article class="card card_bg-yes">
-		   <header class="card__iconbox">
-			<i class="icon icon_large card__icon icon-eye"></i>
-		   </header>
-		   <div class="card__content">
-			<h4 class="title title_small card__title">Augmented Reality</h4>
-			<div class="card__description">
-			 <p>AR technology is used to greatly reduce time spent on visiting furniture stores and mentally visualizing
-				 bulky furniture at home.
+	</div>
 
-			 </p>
-			</div>
-		   </div>
-		  </article>
-		  <article class="card card_bg-yes">
-				<header class="card__iconbox">
-				 <i class="icon icon_large card__icon icon-embed2"></i>
-				</header>
-				<div class="card__content">
-				 <h4 class="title title_small card__title">Cross-platform</h4>
-				 <div class="card__description">
-				  <p>Our mobile application is developed on React Native to allow maximum usage of written code.
-					  We write UI code as much as possible and wrap ios/android specific code in
-					  native modules.
-				  </p>
-				 </div>
-				</div>
-			</article>
-			<article class="card card_bg-yes">
-					<header class="card__iconbox">
-					 <i class="icon icon_large card__icon icon-usd"></i>
-					</header>
-					<div class="card__content">
-					 <h4 class="title title_small card__title">Ecommerce</h4>
-					 <div class="card__description">
-					  <p>We aim to provide our customers a myriad of choices browsing furniture and at the same time giving them
-						  the convenience to visualize them at home. We also provide a platform for furniture firms to gain more
-						  online exposure as they move away from the traditional brick and mortar business model
-					  </p>
-					 </div>
-					</div>
-				</article>
-		 </div>
-		</div>
-		
-		<!-- Pricing Table -->
-		
-		<div class="content__section">
-		<h3 class="title title_middle">
-		 <i class="icon icon_small main-icon icon-mobile2"></i>
-		  <span class="title__label">Mobile Application</span>
-		 </h3>
-		 <div class="cards">
-			<article class="card">
-		 <header class="card__header">
-			<img src="http://placehold.it/480x320" class="responsive-img card__img" alt="Name project">
-		 </header>
-		 <div class="card__content">
-			<h4 class="title title_small card__title">Name project</h4>
-			<div class="card__description">
-			 <p>Text</p>
-			</div>
-		 </div>
-		 <footer class="card__footer">
-			<div class="tags">
-			 <i class="icon icon-local_offer"></i>
-			 <span class="tags__item tags__label">Tags:</span>
-			 <span class="tags__item tags__hashtag">#Mobile</span>
-			</div>
-			<a href="#0" class="link-flat">Live Demo</a>
-		 </footer>								
-			</article>
-		 </div>
-		</div>
-		
-		<!-- Clients -->
-		
-		<div class="content__section">
-		 <h3 class="title title_middle">
-		  <i class="icon icon_small main-icon icon-comments"></i>
-		   <span class="title__label">Clients</span>
-		  </h3>
-		  <div class="clients">
-		   <a href="https://www.martlewood.com/" class="client"><img src="client-mw.jpg" class="client__logo responsive-img" alt="client logo"></a>
-		  </div>
-		 </div>		
-	   
-		 <!-- Testimonials -->
-		 
-		 <div class="content__section">
-		  <h3 class="title title_middle">
-		   <i class="icon icon_small main-icon icon-users"></i>
-		   <span class="title__label">my team</span>
-		  </h3>
-		  <div class="content__section cards">
-		   <article class="card card_bg-yes">
-			<header class="card__iconbox">
-			 <img src="http://placehold.it/150x150" class="card__avatar" alt="ava">
-			</header>
-			<div class="card__content">
-			 <h4 class="title title_small card__title">Kit</h4>
-			 <span class="card__caption">COO, Business Development</span>
-			 <blockquote class="card__description card__blockquote">
-			  <i class="icon card__quote card__quote-left icon-quote-left"></i>
-			  <p>Text</p>
-			  <i class="icon card__quote card__quote-right icon-quote-right"></i>
-			 </blockquote>
-			</div>
-		   </article>
-		   <article class="card card_bg-yes">
-				<header class="card__iconbox">
-				 <img src="http://placehold.it/150x150" class="card__avatar" alt="ava">
-				</header>
-				<div class="card__content">
-				 <h4 class="title title_small card__title">Sylvester</h4>
-				 <span class="card__caption">CEO, Web-studio</span>
-				 <blockquote class="card__description card__blockquote">
-				  <i class="icon card__quote card__quote-left icon-quote-left"></i>
-				  <p>Text</p>
-				  <i class="icon card__quote card__quote-right icon-quote-right"></i>
-				 </blockquote>
-				</div>
-			</article>		
-		  </div>
-		 </div>
-		</div>							
-	   </section>
-	   <section id="portfolio" class="tabs-infoblock">
-		<div class="tabs-infoblock__inner">
-		 <h2 class="title main-title"><span class="main-title__label">Portfolio</span></h2>
-		 
-		 <!-- Description of section -->
-		 
-		 <div class="content__section">
-		  <blockquote class="blockquote">
-		   <i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
-		   <p>Text</p>
-		   <i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
-		  </blockquote>
-		 </div>		
-	   
-		 <!-- Mobile application -->
-		 
-		 <div class="content__section">
-		  <h3 class="title title_middle">
-		   <i class="icon icon_small main-icon icon-android"></i>
-		   <span class="title__label">Mobile application</span>
-		  </h3>
-		  <div class="cards">
-		   <article class="card">
-			<header class="card__header">
-			 <img src="http://placehold.it/480x320" class="responsive-img card__img" alt="Name project">
-			</header>
-			<div class="card__content">
-			 <h4 class="title title_small card__title">Name project</h4>
-			 <div class="card__description">
-			  <p>Text</p>
-			 </div>
-			</div>
-			<footer class="card__footer">
-			 <div class="tags">
-			  <i class="icon icon-local_offer"></i>
-			  <span class="tags__item tags__label">Tags:</span>
-			  <span class="tags__item tags__hashtag">#Mobile</span>
-			 </div>
-			 <a href="#0" class="link-flat">Live Demo</a>
-			</footer>								
-		   </article>
-		  </div>
-		 </div>
-		</div>
-	   </section>
-	   <section id="blog" class="tabs-infoblock">
-		<div class="tabs-infoblock__inner">
-		 <h2 class="title main-title"><span class="main-title__label">Blog</span></h2>
-		 
-		 <!-- Description of section -->
-		 
-		 <div class="content__section">
-		  <blockquote class="blockquote">
-		   <i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
-		   <p>Text</p>
-		   <i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
-		  </blockquote>
-		 </div>	
-	   
-		 <!-- Post -->
-		 
-		 <div class="content__section">
-		  <div class="cards">
-		   <article class="card">
-			<header class="card__header">
-			 <img src="http://placehold.it/480x320" class="responsive-img card__img" alt="Title post">
-			 <span class="card__hashtag">8 April 2016</span>
-			</header>
-			<div class="card__content">
-			 <h4 class="title title_small card__title">Title post</h4>
-			 <div class="card__description">
-			  <p>Text</p>
-			 </div>
-			</div>
-			<footer class="card__footer">
-			 <div class="tags">
-			  <i class="icon icon-local_offer"></i>
-			  <span class="tags__item tags__label">Tags:</span>
-			  <span class="tags__item tags__hashtag">#blog</span>
-			  <span class="tags__item tags__hashtag">#news</span>
-			 </div>								
-			 <a href="#js-post-popup" class="link-flat js-readmore">Read more</a>
-			</footer>								
-		   </article>
-		  </div>
-		 </div>
-		</div>
-	   </section>	
-	   <section id="contacts" class="tabs-infoblock contacts js-contacts">
-		<div class="tabs-infoblock__inner">
-		 <h2 class="title main-title"><span class="main-title__label">Contacts</span></h2>
-		 
-		 <!-- Contacts info -->
-		 
-		 <div class="content__section">
-		  <div class="iconboxs">
-		   <div class="iconbox">
-			<i class="icon icon_middle iconbox__icon icon-envelope-square"></i>
-			<div class="iconbox__info">
-			 <span class="iconbox__label iconbox__name">E-mail</span>
-			 <span class="iconbox__label">yuan.z@u.nus.edu</span>
-			</div>
-		   </div>						
-		  </div>
-		  
-		 <!-- Map -->
-		  
-		  <div id="js-map" class="map"
-							  data-key="AIzaSyA27koLpPxsGA9HCEEpovOu5ySzCnx604c"
-							  data-lat="57.048671"
-							  data-lng="9.9201409"
-							  data-address="Gammeltorv 10,9000 Aalborg, Denmark"></div>
-		  
-		 </div>
-		 
-		 <!-- Contact form -->
-		 
-		 <div class="content__section">
-		  <h3 class="title title_middle">
-		   <i class="icon icon_small main-icon icon-address-book"></i>
-		   <span class="title__label">Contact form</span>
-		  </h3>
-		  <form class="form">
-		   <div class="form__inner">
-			<div class="form__group form__column">
-			 <input type="text" class="form__element field" name="username" placeholder="Your name" pattern="^\S[а-яА-ЯёЁa-zA-Z\s]+\S" required>
-			 <i class="icon form__icon icon-user"></i>
-			 <span class="form__decor-line"></span>
-			</div>
-			<div class="form__group form__column">
-			 <input type="email" class="form__element field" name="usermail" placeholder="Your email" required>
-			 <i class="icon form__icon icon-envelope"></i>
-			 <span class="form__decor-line"></span>
-			</div>
-		   </div>
-		   <div class="form__group">
-			<select class="form__element select" name="subject">
-			 <option class="select__option">Subject</option>
-			 <option class="select__option">Job</option>
-			 <option class="select__option">Testimonial</option>
-			 <option class="select__option">Other</option>
-			</select>
-			<i class="icon form__icon icon-book"></i>
-		   </div>
-		   <div class="form__group">
-			<textarea class="form__element field textarea" name="msg" placeholder="Your message" required></textarea>
-			<i class="icon form__icon icon-bubbles"></i>
-			<span class="form__decor-line"></span>
-		   </div>
-		   <div class="form__button-box">
-			<button class="button">Send</button>
-		   </div>							
-		  </form>
-	   
-		 <!-- Social -->
-		  
-		  <div class="social contacts__social">
-		   <a href="https://www.facebook.com/zhuang.yuan.39" class="icon social__icon icon-facebook"><span class="social__name">Facebook</span></a>
-		   <a href="https://join.skype.com/invite/nsgjZ5wRkacw" class="icon social__icon icon-skype"><span class="social__name">Skype</span></a>
-		   <a href="https://github.com/Za-yn" class="icon social__icon icon-github"><span class="social__name">GitHub</span></a>
-		   <a href="https://plus.google.com/+ZhuangYuan" class="icon social__icon icon-google-plus"><span class="social__name">Google Plus</span></a>
-		   <a href="https://www.linkedin.com/in/zayn/" class="icon social__icon icon-linkedin"><span class="social__name">LinkedIn</span></a>
-		  </div>					
-		 </div>	
-		</div>	
-	   </section>					
-   </div>
-   <footer class="footer">
-    <span>Copyright © 2016 All rights reserved</span>
-   </footer>
-  </div>
- </div>
-</div>
- 
-  <!-- popups-->
-  
- <div id="js-post-popup" class="popup js-popup">
-  <div class="popup__inner">
-   <span class="popup__close js-popup__close"></span>
-   <div class="popup__layout">
-    <div class="popup__container">
-     <h3 class="title popup__title">Title post</h3>
-     <p>Text</p>
-     <p>
-      <img src="http://placehold.it/1500x700" class="responsive-img" alt="img for post">
-     </p>
-     <p>Text</p>				
-     <blockquote class="blockquote">
-      <i class="icon blockquote__quote blockquote__quote-left icon-quote-left"></i>
-      <p>Text</p>
-      <i class="icon blockquote__quote blockquote__quote-right icon-quote-right"></i>
-     </blockquote>
-     <p>Text</p>					
-    </div>
-   </div>
-  </div>
- </div> 
- 
-  <!-- attaching JS-scripts-->
+	<!-- attaching JS-scripts-->
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
- <script src="js/components/nav.js"></script>
- <script src="js/components/map.js"></script>
- <script src="js/components/popup.js"></script>
- <script src="js/main.js" async></script>
- </body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="js/components/nav.js"></script>
+	<script src="js/components/map.js"></script>
+	<script src="js/components/popup.js"></script>
+	<script src="js/main.js" async></script>
+</body>
+
 </html>
